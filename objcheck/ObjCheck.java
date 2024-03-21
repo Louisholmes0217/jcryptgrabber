@@ -17,7 +17,7 @@ public class ObjCheck {
 
 		try{
 			System.out.println("Importing JAVA obj from file\n");
-			FileInputStream fi = new FileInputStream(new File("../objout/obj_2_0_10.0.1.2,10.0.2.2.ser"));
+			FileInputStream fi = new FileInputStream(new File("../objout/FAS_1_0_10.0.1.2,10.0.2.2.ser"));
 			ObjectInputStream oi = new ObjectInputStream(fi);
 			
 			
@@ -35,7 +35,7 @@ public class ObjCheck {
 		} catch (FileNotFoundException e) {
 			System.out.println("File not found");
 		} catch (IOException e) {
-			System.out.println("End of file");
+			System.out.println("End of File OR IO exception");
 		} catch (ClassNotFoundException e) {
 			System.out.println("Class not found");
 		}

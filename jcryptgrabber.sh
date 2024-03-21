@@ -1,34 +1,8 @@
 #! /bin/bash
 
-datatype=$2
-echo "Clear folders?"
-read answer
-
-if [[ answer == "y" ]]
-then
-	rm out.txt
-	rm objout/*
-	rm stream/*
-else
-	:
-fi
-
-if [[ -f streamout/${datatype}* ]]
-then
-	rm streamout/${datatype}*
-else
-	:
-fi
-
-if [[ -f objout/obj_${datatype}* ]]
-then
-	rm objout/obj_${datatype}*
-else
-	:
-fi
-	
 rm out.txt
-
+datatype=$2
+	
 if [ $1 == "" ]
 then 
 	exit 0
