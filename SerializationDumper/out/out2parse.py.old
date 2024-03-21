@@ -1,0 +1,10 @@
+out2 = open("out2.txt", "r")
+counter = 0
+for line in out2:
+    linearray = line.split(":")
+    filename = ("streamoutput/"+str(counter)+"_"+linearray[0]+"_"+linearray[1]+".txt")
+    outfile = open(filename, "w")
+    outfile.write(linearray[2])
+    outfile.close()
+    counter += 1
+out2.close()
