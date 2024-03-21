@@ -14,7 +14,7 @@ Requirements/Dependancies:
 	- Java,
 	- Python3,
 	- Ecliplse AnBx ide plugin (for objcheck only)
-	
+
 Installation: No installation needed, 
 just ensure all dependancies are installed
 
@@ -28,6 +28,10 @@ the [identifier] argument is optional and can be ommited, adding
 an argument here will append the string you set to the start of any
 file related to the specific PCAP file. This can be used to seperate
 between different protocols and PCAP files in the out folders.
+
+A "clear.sh" program has been included to conveniently empty any previously
+extracted content in the out.txt file, objout/ and streamout/ folders.
+Simply run this with "./clear.sh" before beginning your project.
 
 Input/Output:
 The tool takes the path to a pcap file as an input. The output
