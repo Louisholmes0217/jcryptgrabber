@@ -1,11 +1,20 @@
 *************
 jcryptgrabber
 *************
+Preamble:
+This tool was developed as part of a final year project for my University 
+course, Cyber Security and Networks. I was given the task to extract 
+cryptographic elelments from a packet capture file in the form of serialized
+Java objects. My solution was a combination of existing tools, and a simple
+parser that would detect and reconstruct Java elements within a Pcap file.
+
 Author:	Louis Holmes
+
 Requirements/Dependancies: 
 	- Java,
 	- Python3,
 	- Ecliplse AnBx ide plugin (for objcheck only)
+	
 Installation: No installation needed, 
 just ensure all dependancies are installed
 
