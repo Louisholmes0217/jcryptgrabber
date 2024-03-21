@@ -33,6 +33,10 @@ A "clear.sh" program has been included to conveniently empty any previously
 extracted content in the out.txt file, objout/ and streamout/ folders.
 Simply run this with "./clear.sh" before beginning your project.
 
+An "ObjCheck.jar" tool has also been included for reading in the java objects.
+Simply change the filepath in the .java file to your chosen .ser file and
+compile/run to check the validity of the objects and get its values.
+
 Input/Output:
 The tool takes the path to a pcap file as an input. The output
 is in the form of .txt files and .ser files. The .txt files are an
