@@ -1,5 +1,3 @@
-import sys
-
 if len(sys.argv) > 1:
     datatype = sys.argv[1]+"_"
 else:
